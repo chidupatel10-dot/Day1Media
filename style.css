@@ -487,7 +487,7 @@ footer {
 }
 
 /* Small-phone fix: keep nav-menu.active contents from spilling (320px - 360px) */
-@media (min-width: 320px) and (max-width: 380px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .nav-menu.active {
     position: absolute;
     top: 12%;
@@ -516,4 +516,5 @@ footer {
     word-break: break-word;
   }
 }
+
 
